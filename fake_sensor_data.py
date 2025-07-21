@@ -12,7 +12,7 @@ import math
 from datetime import datetime
 
 # Server configuration
-SERVER_URL = "http://127.0.0.1:5000/sensordata"
+SERVER_URL = "http://127.0.0.1:8000/sensordata"
 SEND_INTERVAL = 5  # seconds (matches ESP32 delay)
 
 class SensorSimulator:
